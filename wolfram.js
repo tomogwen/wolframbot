@@ -71,7 +71,7 @@ function wolfram(question) {
     request({
         url: 'http://api.wolframalpha.com/v2/query',
         qs: {
-            appid: '64JGGE-9WJEWGU34J',
+            appid: 'INSERTYOURWOLFRAMID',
             input: question,
             format: 'image,plaintext',
         },
